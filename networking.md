@@ -2,9 +2,10 @@ Basic checks (do these first)
 Plug your phone in via USB and turn on USB tethering on the phone.
 Then run these in Konsole and paste the output:
 # See if the USB network interface appears
+```
 ip link
 ip a
-
+```
 # See what NetworkManager thinks
 nmcli device
 nmcli connection
